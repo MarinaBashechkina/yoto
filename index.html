@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+      <link  href="source/css/style.css" rel="stylesheet">
+               <link  href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet" >
+
+      <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon"  type="image/x-icon" sizes="32x32" href="favicon.ico?">
+        <title>Турагентство YourTour - туры по России и за рубежом</title>
+        <meta name="description" content="&#9992 Туристическое агентство YourTour предлагает широкий выбор авторских туров по Рооссии и за рубежом. Организует для Вас: сплавы, велопрогулки, походы, а также путешествия автостопом.">
+        <meta name="keywords" content="туристическое агентство, экскурсии,туры, отдых, горы, велопрогулки, походы, туры автостопом, активный отдых, туризм, поиск туров, авторские туры, туры к морю, туры в горы, путешествие в горы, конструктор туров, выбрать тур, популярные туры. ">
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html"> <img src="img/YourTour.png" alt=""></a>
+        <nav class="header__navigation">
+            <ul class="navigation__list">
+                <li class="list__item"><a href="#choose">Туры</a></li>
+                <li class="list__item"><a href="#constuctor">Создать тур</a></li>
+                <li class="list__item"><a href="#feedback">Отзывы</a></li>
+                <li class="list__item"><a href="#stories">Истории</a></li>
+            </ul>
+        </nav>
+        <a href="tel:+79999999999">+7 999 999 99 99</a>
+    </header>
+    <main class="main">
+        <section class="main__head">
+            <h1>Идеальные путешествия существуют</h1>
+            <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+            <button class="head__search_btn">Найти тур</button>
+        </section>
+        <section class="main__choose" id="choose">
+            <div class="title">
+                <h2>Выбери свой тур</h2>
+            </div>
+            <ul class="choose__tabs_list">
+                <li class="tabs_list__tab">
+                    <input type="radio" id="popular" name="tabs" checked>
+                    <label for="popular">Популярные</label>
+                    <div class="tab__content" id="popular_cards">
+                        <div class="content__card">
+                            <img src="img/1.png" alt="canyon" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__card">
+                            <img src="img/2.png" alt="desert" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="content__card">
+                            <img src="img/3.png" alt="cliff" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="content__card">
+                            <img src="img/g9.png" alt="street" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="content__card">
+                            <img src="img/5.jfif" alt="beach" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__card">
+                            <img src="img/g11.png" alt="lake" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>     
+                    </div>
+                </li>
+                <li class="tabs_list__tab">              
+                    <input type="radio" id="author" name="tabs" >
+                    <label for="author">Авторские</label> 
+                    <div class="tab__content" id="popular_cards">
+                        <div class="content__card">
+                            <img src="img/1.png" alt="canyon" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__card">
+                            <img src="img/2.png" alt="desert" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="content__card">
+                            <img src="img/3.png" alt="cliff" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="content__card">
+                            <img src="img/g9.png" alt="street" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="content__card">
+                            <img src="img/5.jfif" alt="beach" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__card">
+                            <img src="img/g11.png" alt="lake" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>     
+                    </div>
+                </li>
+                <li class="tabs_list__tab">
+                    <input type="radio" id="walk" name="tabs" >
+                    <label for="walk">Походы</label>                    
+                    <div class="tab__content" id="popular_cards">
+                        <div class="content__card">
+                            <img src="img/1.png" alt="canyon" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__card">
+                            <img src="img/2.png" alt="desert" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="content__card">
+                            <img src="img/3.png" alt="cliff" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="content__card">
+                            <img src="img/g9.png" alt="street" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="content__card">
+                            <img src="img/5.jfif" alt="beach" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__card">
+                            <img src="img/g11.png" alt="lake" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>     
+                    </div>
+                </li>
+                <li class="tabs_list__tab">
+                    <input type="radio" id="raft" name="tabs" >
+                    <label for="raft">Сплавы</label>    
+                    <div class="tab__content" id="popular_cards">
+                        <div class="content__card">
+                            <img src="img/1.png" alt="canyon" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__card">
+                            <img src="img/2.png" alt="desert" class="card__image">
+                            <div class="card__container" >
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="content__card">
+                            <img src="img/3.png" alt="cliff" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="content__card">
+                            <img src="img/g9.png" alt="street" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="content__card">
+                            <img src="img/5.jfif" alt="beach" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__card">
+                            <img src="img/g11.png" alt="lake" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>     
+                    </div>
+                </li>
+                <li class="tabs_list__tab">
+                    <input type="radio"id="ride" name="tabs" >
+                    <label for="ride">Велопрогулки</label>
+                    <div class="tab__content" id="popular_cards">
+                        <div class="content__card">
+                            <img src="img/1.png" alt="canyon" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__card">
+                            <img src="img/2.png" alt="desert" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="content__card">
+                            <img src="img/3.png" alt="cliff" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="content__card">
+                            <img src="img/g9.png" alt="street" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="content__card">
+                            <img src="img/5.jfif" alt="beach" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__card">
+                            <img src="img/g11.png" alt="lake" class="card__image">
+                            <div class="card__container">
+                                <div class="container__text">
+                                    <h3>Путешествие в горы</h3>
+                                    <p>от 80 000 руб</p>
+                                </div>
+                                <div class="container__footer">
+                                    <button class="button_choose footer__button">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>     
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="main__constructor" id="constuctor">
+            <div class="title">
+                <h2>Собери свой тур</h2>
+                <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+            </div>
+            <form class="constructor__forma" method="post">
+                <label class="forma__label" for="input_name">
+                    <span>Имя</span>
+                    <input type="text" id="input_name" placeholder="Введите Ваше имя">
+                </label>
+                <label for="select" class="forma__label">
+                    <span>Направление</span>
+                    <select name="where" id="select" required>
+                        <option value="" hidden disabled selected >Куда хотите ехать</option>
+                        <option value="">Пункт выбран</option>
+                        <option value="">Пункт выбран1</option>
+                        <option value="">Пункт выбран2</option>
+                    </select>
+                </label>
+                <label for="mail" class="forma__label">
+                    <span>Email</span>
+                    <input type="email" id="mail" placeholder="example@mail.com">
+                </label>
+                <label for="tel" class="forma__label">
+                    <span>Телефон</span>
+                    <input type="tel" id="tel" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
+                </label>
+                <label for="first_date" class="forma__label">
+                    <span>Дата от</span>
+                    <input type="date" id="first_date" required>
+                </label>
+                <label for="last_date" class="forma__label">
+                    <span>Дата до</span>
+                    <input type="date" id="last_date" required>
+                </label>
+                <label for="textarea" class="forma__label">
+                    <span>Комментарий</span>
+                    <textarea name="comment" id="textarea"></textarea>
+                </label>
+                <div class="forma__label">
+                    <span>Вам есть 18 лет?</span>
+                    <div class="label__radio">
+                        <label for="radioyes" class="radio__item">
+                            <input type="radio" name="radio_age" id="radioyes">
+                            <span>Да</span>
+                        </label>
+                        <label for="radiono" class="radio__item" >
+                            <input type="radio" name="radio_age" id="radiono">
+                            <span>Нет</span>
+                        </label>
+                    </div>  
+                </div>
+                <label for="checkbox" class="forma__checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <span>Нажимая кнопку, я принимаю условия 
+                        <a href="#~">Лицензионного договора</a>
+                    </span>
+                </label>
+                <button id="button_submit" class="forma__button">Найти тур</button>
+                <button id="button_reset"class="forma__button">Сбросить</button>
+            </form>
+        </section>
+        <section class="main__feedback" id="feedback">
+            <div class="title">
+                <h2>Отзывы наших путешественников</h2>
+                <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+            </div>
+            <div class="feedback__container">
+                <div class="container__block" id="first_feedback">
+                    <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Идейные соображения высшего порядка, а также начало повседневной <br>работы по формированию позиции позволяет оценить значение модели развития.</p>
+                    <div class="block__footer">
+                        <div class="footer__sign">
+                            <h3>Мария</h3>
+                            <p>Тур: Вдали от дома</p>
+                        </div>
+                        <img src="img/ot1.png" alt="Mary">
+                    </div>
+                </div>
+                <div class="container__block" id="second_feedback">
+                    <p>Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.
+                    <br><br>Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Повседневная практика показывает, что реализация намеченных плановых заданий в значительной степени обуславливает создание модели развития.</p>
+                    <div class="block__footer">
+                        <div class="footer__sign">
+                            <h3>Павел</h3>
+                            <p>Тур: Путешествие в горы</p>
+                        </div>
+                        <img src="img/ot2.png" alt="Paul">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__photos">
+            <div class="title">
+                <h2>Фотографии путешествий</h2>
+                <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+            </div>
+            <div class="photos__gallery">
+                <div class="gallery__row_first">
+                    <div class="wrapper_image_plane"><img id="plane" src="img/g1.png" alt="plane"></div>
+                    <img id="desert" src="img/g2.png" alt="desert">
+                    <img id="mountine" src="img/g3.png" alt="mountine">
+                    <div class="wrapper_image_road"><img id="road" src="img/g4.png" alt="road"></div>
+                </div>
+                <div class="gallery__row_middle">
+                    <img id="canyon"src="img/g5.png" alt="canyon">
+                    <img id="map" src="img/g6.png" alt="map">
+                    <img id="forest" src="img/g7.jfif" alt="forest">
+                    <img src="img/g8.png" alt="camp">
+                    <div class="wrapper_image_middle-street"><img id="middle_street"src="img/g9.png" alt="street"></div>
+                </div>
+                <div class="gallery__row_last">
+                    <img id="first_street" src="img/g10.png" alt="street">
+                    <img id="lake" src="img/g11.png" alt="lake">
+                    <img id="last_street" src="img/g12.png" alt="street">
+                    <div class="wrapper_image_river"><img id="river" src="img/g13.png" alt="river"></div>
+                </div>
+            </div>   
+        </section>
+        <section class="main__stories" id="stories">
+            <div class="title">
+                <h2>Истории путешествий</h2>
+                <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+            </div>
+            <div class="stories__cards">
+                <div class="cards__card">
+                    <img src="img/s1.png" alt="ocean" class="card__image" id="matrix">
+                    <div class="card__container container_story">
+                        <div class="container__text">
+                            <h3>Автостопом в Стамбул</h3>
+                            <span>Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</span>
+                            <ul>
+                                <li>вкусная еда</li>
+                                <li>дешевый транспорт</li>
+                                <li>красивый город.</li>
+                            </ul>
+                        </div>
+                        <div class="container__footer">
+                            <button class="button_story footer__button">Подробнее</button>
+                            <ul class="footer__social">
+                                <li><a href="#~">instagram</a></li>
+                                <li><a href="#~">facebook</a></li>
+                                <li><a href="#~">YouTube</a></li>
+                            </ul>                          
+                        </div>
+                    </div>
+                </div>                
+                <div class="cards__card">
+                    <img src="img/s2.png" alt="ocean" class="card__image">
+                    <div class="card__container container_story">
+                        <div class="container__text">
+                            <h3>Автостопом в Стамбул</h3>
+                            <span>Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</span>
+                        </div>
+                        <div class="container__footer">
+                            <button class="button_story footer__button">Подробнее</button>
+                            <ul class="footer__social">
+                                <li><a href="#~">instagram</a></li>
+                                <li><a href="#~">ВКонтакте</a></li>
+                            </ul>                           
+                        </div>
+                    </div>
+                </div>                
+                <div class="cards__card">
+                    <img src="img/s3.png" alt="ocean" class="card__image" id="matrix">
+                    <div class="card__container container_story">
+                        <div class="container__text">
+                            <h3>Автостопом в Стамбул</h3>
+                            <span>Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</span>
+                        </div>
+                        <div class="container__footer">
+                            <button class="button_story footer__button">Подробнее</button>
+                            <ul class="footer__social">
+                                <li><a href="#~">instagram</a></li>
+                                <li><a href="#~">facebook</a></li>
+                                <li><a href="#~">ВКонтакте</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__cta">
+            <img src="img/24.png" class="cta__image" alt="meadow">
+            <div class="cta__text">
+                <h3>Пора в путешествие вместе с нами!</h3>
+                <p>Напиши на почту и узнай подробности на <a href="mailto:yourtour@gmail.com">yourtour@gmail.com</a></p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Наши социальные сети</p>
+        <ul class="footer__list_social">
+            <li id="inst" >
+                <div class="list_social__image">
+                    <img src="img/inst.png" alt="">
+                </div>
+                <a href="#~">instagram</a>
+            </li>
+            <li id="fb">
+                <div class="list_social__image">
+                    <img src="img/fb.png" alt="">
+                </div>
+                <a href="#~">facebook</a>
+            </li>
+            <li id="vk">
+                <div class="list_social__image">
+                    <img src="img/vk.png" alt="">
+                </div>
+                <a href="#~">vkontakte</a>
+            </li>
+        </ul>   
+    </footer>
+          <script src="js/scroll.js"></script>  
+</body>
+</html>
